@@ -1,23 +1,889 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+
+
+  <!-- 1. Schema.org JSON-LD - Product 구조화 데이터 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "2026 현대 포터2 및 기아 봉고3 1톤탑차 (내장탑차, 냉동탑차, 윙바디)",
+    "description": "디젤 엔진 단종 이후 스마트스트림 LPG 2.5 터보 엔진과 친환경 EV 파워트레인을 탑재한 대한민국 대표 1톤 소형 특장 탑차 라인업의 세부 가격 가이드",
+    "image": [
+      "https://via.placeholder.com/600/2b3e50/fff?text=1Ton+Box+Truck"
+    ],
+    "brand": {
+      "@type": "Brand",
+      "name": "현대자동차 및 기아"
+    },
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "KRW",
+      "lowPrice": "20550000",
+      "highPrice": "63610000",
+      "offerCount": "12",
+      "url": "https://guide.reliabledone.com/cargo-truck-cost"
+    }
+  }
+  </script>
+
+  <!-- 2. Schema.org JSON-LD - FAQPage 구조화 데이터 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "2026년 기준 포터2 내장탑차 및 봉고3 냉동탑차의 평균 가격대는 얼마인가요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "LPG 터보 사양의 경우 차량 기본 가격 및 특장 작업 비용을 포함하여 대략 2,100만 원에서 3,000만 원 선에서 실거래 금액이 형성됩니다. 반면 전기(EV) 모델은 보조금 수령 전 공장 출고 가격이 4,300만 원에서 6,300만 원대에 달하지만, 정부 및 지자체 지원금을 모두 신청하여 수령하면 실제 부담하시는 실구매 비용은 2,000만 원대 중후반에서 3,000만 원대 초반으로 크게 인하됩니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "1톤 탑차를 구매할 때 장기렌트와 오토리스 중 어느 방법이 유지 비용 측면에서 더 유리한가요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "개인의 신용 및 보험 경력, 부가세 환급 여부에 따라 장단점이 극명하게 갈립니다. 1톤 탑차 장기렌트는 번호판이 하, 허, 호 등으로 분류되지만 사고 경력에 따른 보험 요금 인상 우려가 없고 정비 일체를 전문 업체가 책임집니다. 반면 1톤 탑차 오토리스는 일반 번호판을 달고 본인의 기존 무사고 운전 경력을 그대로 유지하여 할인 혜택을 챙길 수 있는 장점이 있어 장기적인 예산 절감에서 주로 추천됩니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "친환경 전기 탑차 구매 시 적용받을 수 있는 세부 보조금 요금제 정보는 어떻게 되나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "2026년 전기 특장 탑차 부문의 국고보조금은 약 780만 원 수준이며, 여기에 각 지자체별(서울 약 284만 원, 제주 약 371만 원 등) 추가 지원금이 결합됩니다. 따라서 구매 지역별 접수 한도와 요건을 전문 상담 컨설턴트를 통해 정확히 계산하는 과정이 필수적입니다."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- 3. Schema.org JSON-LD - ItemList 구조화 데이터 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "1톤 소형 탑차 주요 사양별 출고 가격 비교 분석표",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "포터2 스마트 트림 2.5 LPG 터보",
+        "url": "https://guide.reliabledone.com/cargo-truck-cost#price-table"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "봉고3 L라이트 2.5 LPG 터보",
+        "url": "https://guide.reliabledone.com/cargo-truck-cost#price-table"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "포터2 일렉트릭 탑차 프리미엄 스페셜",
+        "url": "https://guide.reliabledone.com/cargo-truck-cost#price-table"
+      }
+    ]
+  }
+  </script>
+
+  <!-- 현대적이고 따뜻한 톤앤매너 디자인 레이아웃 (이모티콘, 기호 전면 배제) -->
+  <style>
+    :root {
+      --primary-color: #2b3e50; /* 기품 있는 네이비 다크 블루 */
+      --secondary-color: #dca154; /* 따뜻하고 풍성한 무드의 세컨더리 샌드 골드 */
+      --accent-color: #cf6a4c; /* 주의와 포인트를 강조할 테라코타 브릭 */
+      --text-color: #383838; /* 가독성을 최우선으로 한 다크 챠콜 */
+      --light-bg: #faf7f2; /* 부드럽고 고급스러운 아이보리톤 웜 그레이 */
+      --white: #ffffff;
+      --border-color: #e3dec3;
+      --card-shadow: 0 10px 30px rgba(43, 62, 80, 0.06);
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background-color: var(--light-bg);
+      color: var(--text-color);
+      line-height: 1.8;
+      font-size: 16px;
+      word-break: keep-all;
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: var(--white);
+      padding: 60px 20px;
+      text-align: center;
+      border-bottom: 5px solid var(--secondary-color);
+    }
+
+    header h1 {
+      font-size: 2.6em;
+      font-weight: 700;
+      margin-bottom: 15px;
+      letter-spacing: -1px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      font-weight: 300;
+      color: #cbd5e1;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    nav {
+      background-color: var(--white);
+      padding: 15px 0;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    nav .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: var(--primary-color);
+      text-decoration: none;
+      font-weight: 500;
+      padding: 8px 16px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--secondary-color);
+    }
+
+    .main-container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: var(--white);
+      padding: 50px;
+      border-radius: 16px;
+      margin-bottom: 40px;
+      box-shadow: var(--card-shadow);
+      border: 1px solid rgba(220, 161, 84, 0.15);
+    }
+
+    h2 {
+      font-size: 2em;
+      color: var(--primary-color);
+      border-left: 6px solid var(--secondary-color);
+      padding-left: 15px;
+      margin-bottom: 25px;
+      font-weight: 700;
+    }
+
+    h3 {
+      font-size: 1.4em;
+      color: var(--primary-color);
+      margin-top: 30px;
+      margin-bottom: 15px;
+      font-weight: 500;
+    }
+
+    p {
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+
+    /* 표 스타일 */
+    .table-responsive {
+      overflow-x: auto;
+      margin: 30px 0;
+      border-radius: 10px;
+      border: 1px solid var(--border-color);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.95em;
+    }
+
+    th {
+      background-color: var(--primary-color);
+      color: var(--white);
+      padding: 15px 20px;
+      font-weight: 500;
+    }
+
+    td {
+      padding: 15px 20px;
+      border-bottom: 1px solid #eeeeee;
+    }
+
+    tr:nth-child(even) td {
+      background-color: #fafaf6;
+    }
+
+    /* 리스트 디자인 */
+    ul, ol {
+      margin-bottom: 25px;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    /* 그리드 시스템 */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+      margin: 30px 0;
+    }
+
+    .grid-card {
+      background: var(--light-bg);
+      padding: 30px;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+    }
+
+    /* 시뮬레이터 계산기 폼 스타일 */
+    .calc-form {
+      background: var(--light-bg);
+      padding: 40px;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+      margin-top: 30px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: 500;
+      margin-bottom: 8px;
+      color: var(--primary-color);
+    }
+
+    .form-group select, .form-group input {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      background-color: var(--white);
+      font-size: 15px;
+      color: var(--text-color);
+      outline: none;
+    }
+
+    .form-group select:focus, .form-group input:focus {
+      border-color: var(--secondary-color);
+    }
+
+    .calc-btn {
+      background-color: var(--primary-color);
+      color: var(--white);
+      border: none;
+      padding: 15px 30px;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      width: 100%;
+      transition: background-color 0.3s;
+    }
+
+    .calc-btn:hover {
+      background-color: var(--secondary-color);
+    }
+
+    .calc-results {
+      margin-top: 30px;
+      padding: 25px;
+      background: var(--white);
+      border-radius: 8px;
+      border-left: 5px solid var(--secondary-color);
+    }
+
+    .calc-results div {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 12px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #f0eddf;
+    }
+
+    .calc-results div:last-child {
+      border: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      font-weight: 700;
+      color: var(--accent-color);
+      font-size: 1.15em;
+    }
+
+    /* FAQ 토글 */
+    .faq-wrapper {
+      margin-top: 30px;
+    }
+
+    .faq-block {
+      border-bottom: 1px solid var(--border-color);
+      padding: 20px 0;
+    }
+
+    .faq-question {
+      font-weight: 700;
+      color: var(--primary-color);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1.1em;
+    }
+
+    .faq-answer {
+      display: none;
+      margin-top: 15px;
+      color: #555555;
+      text-align: justify;
+    }
+
+    .faq-block.open .faq-answer {
+      display: block;
+    }
+
+    /* 푸터 */
+    footer {
+      background-color: var(--primary-color);
+      color: var(--white);
+      padding: 40px 20px;
+      text-align: center;
+      font-size: 0.9em;
+      border-top: 5px solid var(--secondary-color);
+    }
+
+    footer a {
+      color: var(--secondary-color);
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer p {
+      text-align: center;
+      margin-bottom: 10px;
+      color: #94a3b8;
+    }
+
+    /* 태그 스타일 */
+    .tag-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .tag-item {
+      background-color: #eeeeee;
+      color: #444444;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.85em;
+      font-weight: 500;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        padding: 45px 15px;
+      }
+      header h1 {
+        font-size: 2em;
+      }
+      section {
+        padding: 25px;
+      }
+      h2 {
+        font-size: 1.6em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>2026 1톤탑차 가격 종합 분석 리포트</h1>
+    <p>포터2 내장탑차 및 봉고3 냉동탑차 등 특장 차종별 출고 요금제, 실구매 비용, 혜택 및 절약 방법 완전 해부</p>
+  </header>
+
+  <nav>
+    <div class="nav-container">
+      <a href="#market-trend">시장 분석</a>
+      <a href="#price-table">출고 가격표</a>
+      <a href="#comparison">LPG vs EV</a>
+      <a href="#purchasing-way">구매 경로 비교</a>
+      <a href="#calculator">가상 시뮬레이터</a>
+      <a href="#faq">자주 묻는 질문</a>
+    </div>
+  </nav>
+
+  <main class="main-container">
+
+    <!-- 1. 시장 트렌드 섹션 -->
+    <section id="market-trend">
+      <h2>2026년형 1톤 탑차 시장의 핵심 흐름과 변화</h2>
+      <p>
+        2026년 현재 대한민국 소형 물류 운송의 핵심 중추인 1톤 탑차 시장은 기술적, 경제적으로 일대 대전환기를 겪고 있습니다. 소상공인과 중소 유통 기업의 가장 든든한 동반자가 되어온 소형 트럭 시장에서 기존 경유 디젤 모델이 완전히 단종됨에 따라, 업계는 스마트스트림 LPG 2.5 터보 엔진 탑재 모델과 지능형 안전 사양이 기본화된 순수 전기(EV) 라인업으로의 전면적인 세대 교체를 마쳤습니다. 특히 이번 연도 연식 변경을 통해 선보인 2026 포터 II 및 2026 봉고 III는 운전석 통풍시트나 첨단 ADAS 전방 감지 카메라 기능의 기본 사양 범위를 전체 등급으로 대폭 넓히면서 안정성과 거주성이 눈에 띄게 격상된 반면, 제작 원가 상승으로 인해 출고 기본 요금이 전년 대비 최저 40만 원에서 최대 160만 원가량 현실화된 추세를 보입니다.
+      </p>
+      <p>
+        이에 따라 자영업자와 물류 담당자들은 새 차 구매 이전에 예상되는 평균 지출 금액이 정확히 얼마인지 면밀하게 계산하고 예산을 검토해야 하는 숙제를 갖게 되었습니다. 불필요한 마진 거품을 걷어내고 다이렉트 경로로 합리적인 대안을 모색하려는 요구가 늘어나고 있으며, 인터넷 카페나 물류 커뮤니티인 디시, 보배드림, 펨코, 에펨코리아 등지에서 실시간 출고 대기 납기와 관련된 실사용 후기 및 내돈내산 출고 꿀팁 정보를 나누는 교류가 대단히 폭넓게 전개되고 있습니다.
+      </p>
+    </section>
+
+    <!-- 2. 세부 트림별 가격 분석표 -->
+    <section id="price-table">
+      <h2>주요 브랜드 트림별 공식 출고가 가이드</h2>
+      <p>
+        소비자가 제일 먼저 판단해야 하는 선택 기준은 베이스가 되는 양대 브랜드인 현대자동차와 기아의 공식 가격표 수치를 비교하는 것입니다. 탑차가 조립되는 원형 프레임 섀시의 특성과 옵션 배치를 면밀히 비교 검토하여 최적의 저렴한곳을 선별해 내는 것이 비즈니스 이익을 확보하는 첫걸음입니다. 아래 분석표는 각 브랜드가 공식적으로 게시한 1톤 2WD 초장축 킹캡 및 슈퍼캡 모델의 대표 기준 가격 요금제입니다.
+      </p>
+
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>구분 및 모델 분류</th>
+              <th>세부 파워트레인 사양</th>
+              <th>세부 트림 및 등급</th>
+              <th>제조사 공식 가격 (수동 기준)</th>
+              <th>전기차 예상 보조금 범위</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>포터2 내장탑차 (스마트)</td>
+              <td>스마트스트림 LPG 2.5 터보</td>
+              <td>스마트 트림 (Smart)</td>
+              <td>21,520,000 원</td>
+              <td>지원 제외 대상</td>
+            </tr>
+            <tr>
+              <td>포터2 내장탑차 (모던)</td>
+              <td>스마트스트림 LPG 2.5 터보</td>
+              <td>모던 트림 (Modern)</td>
+              <td>22,570,000 원</td>
+              <td>지원 제외 대상</td>
+            </tr>
+            <tr>
+              <td>포터2 내장탑차 (프리미엄)</td>
+              <td>스마트스트림 LPG 2.5 터보</td>
+              <td>프리미엄 트림 (Premium)</td>
+              <td>23,800,000 원</td>
+              <td>지원 제외 대상</td>
+            </tr>
+            <tr>
+              <td>포터2 일렉트릭 탑차 (스타일)</td>
+              <td>친환경 영구자석형 전기 모터</td>
+              <td>스타일 스페셜 (Style)</td>
+              <td>43,500,000 원</td>
+              <td>약 1,000만 원 ~ 1,300만 원 차등</td>
+            </tr>
+            <tr>
+              <td>포터2 일렉트릭 탑차 (스마트)</td>
+              <td>친환경 영구자석형 전기 모터</td>
+              <td>스마트 스페셜 (Smart)</td>
+              <td>44,850,000 원</td>
+              <td>약 1,000만 원 ~ 1,300만 원 차등</td>
+            </tr>
+            <tr>
+              <td>봉고3 L라이트 특장차</td>
+              <td>스마트스트림 LPG 2.5 터보</td>
+              <td>봉고3 L라이트 (L-Lite)</td>
+              <td>20,550,000 원</td>
+              <td>지원 제외 대상</td>
+            </tr>
+            <tr>
+              <td>봉고3 GL 특장차</td>
+              <td>스마트스트림 LPG 2.5 터보</td>
+              <td>봉고3 GL 트림 (GL)</td>
+              <td>22,000,000 원</td>
+              <td>지원 제외 대상</td>
+            </tr>
+            <tr>
+              <td>봉고3 GLS 특장차</td>
+              <td>스마트스트림 LPG 2.5 터보</td>
+              <td>봉고3 GLS 트림 (GLS)</td>
+              <td>23,200,000 원</td>
+              <td>지원 제외 대상</td>
+            </tr>
+            <tr>
+              <td>봉고3 EV 냉동탑차 하이</td>
+              <td>친환경 영구자석형 전기 모터</td>
+              <td>봉고3 EV 스페셜</td>
+              <td>63,610,000 원</td>
+              <td>약 1,100만 원 ~ 1,400만 원 차등</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        위 수치는 특장 제작 이전의 순수 베이스 샤시 탑차 트림 혹은 기본 형태의 출고 요금 기준이므로, 실제 완성된 형태의 1톤 정식 특장차 구성을 완료할 때는 적재함 보강 설계, 단열재 두께, 양문형 미닫이 옵션 탑재 여부에 따라 추가 예상 견적이 200만 원에서 700만 원 이상까지 상이해질 수 있습니다. 이러한 격차는 각 브랜드 공식 사이트의 가상 설계 시스템이나 제휴 상담 컨설팅 서비스를 이용하면 더욱 면밀한 수치 산출이 가능합니다.
+      </p>
+    </section>
+
+    <!-- 3. 차종 종류별 특징 분석 -->
+    <section id="types-analysis">
+      <h2>다양한 1톤 탑차 종류와 용도별 기능</h2>
+      <p>
+        운송 사업의 성패는 본인의 적재물에 가장 부합하는 규격의 특장 박스 종류를 영리하게 정하는 것에서 시작됩니다. 단순히 싼곳이나 최저가 조건만 추구하다가 정작 현업에서 실용성이 떨어져 후회하는 내돈내산 실패 후기가 동호회 게시판에 자주 등록되는 것도 이 때문입니다.
+      </p>
+
+      <div class="grid-container">
+        <div class="grid-card">
+          <h3>포터2 내장탑차 및 봉고3 내장탑차</h3>
+          <p>
+            주로 일반 택배 수송 및 마트 배송, 가구 운반 업무에 범용적으로 활용되는 가장 대표적인 1톤 정식 특장차 모델입니다. 전고가 비교적 낮아 지하 주차장 램프 진입 시 천장 충돌 우려를 현저히 최소화한 1톤 저상탑차 형태부터, 허리를 굽히지 않고 짐칸 내부에서 원활하게 수동 상하차를 집행할 수 있어 생산성이 탁월한 하이탑 형태까지 높이 영역에 따라 선택폭이 다변화되어 있습니다.
+          </p>
+        </div>
+        <div class="grid-card">
+          <h3>봉고3 냉동탑차 및 포터2 하이냉동탑차</h3>
+          <p>
+            식품 위생법 강화와 냉장 저온 물류망의 폭발적인 성장세에 힘입어 제일 가치 높은 몸값을 구가하고 있는 사양입니다. 완벽한 냉각 기조를 위해 에어컨 전용 컴프레셔와 냉동고 전용을 개별 독립화시킨 듀얼 컴프레셔 시스템이 장착된 포터2 냉장탑차 사양이나 극대화된 탑 높이를 앞세워 단열성과 용적률을 동시에 틀어쥔 하이냉동탑차 형태는 신선 신선식품 배달 사업장의 전제 조건으로 여겨집니다.
+          </p>
+        </div>
+        <div class="grid-card">
+          <h3>1톤 윙바디 및 특수 특장</h3>
+          <p>
+            화물 도어가 마치 갈매기 날개처럼 양측으로 완전히 펼쳐져 대형 화물 터미널의 지게차를 이용한 상하차가 극도로 간편합니다. 또한, 대량의 이삿짐을 한 번에 정리하기 용이한 1.2톤 탑차 모델이나, 차량 후방에서 무거운 공구나 중량 기계를 유압 리프트를 사용해 손쉽게 입고시키는 1톤 탑차 파워게이트 세트, 도심 좁은 길목 배달에 이점을 발휘하는 포터2 미닫이탑차 및 운전석 내부 통로가 뚫린 봉고3 워크스루밴 구조까지 세부 비즈니스 카테고리에 최적화된 명칭들이 존재합니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. 파워트레인 별 장단점 비교 분석 -->
+    <section id="comparison">
+      <h2>LPG 터보 vs 일렉트릭(EV): 나에게 어울리는 파워트레인은?</h2>
+      <p>
+        디젤 퇴출 이후 두 갈래로 나뉜 에너지는 각각 뚜렷한 장단점과 고유의 운영 효율성을 자랑합니다. 사용자의 일 주행 거리, 주로 왕래하는 고속도로 비중, 그리고 주거지 주변의 충전 인프라 유무에 따라 어떤 모델이 가장 어울릴지 운명이 결정됩니다.
+      </p>
+
+      <h3>스마트스트림 LPG 2.5 터보 파워트레인의 특장점</h3>
+      <ul>
+        <li><strong>탁월한 경제성과 초기 비용의 우위:</strong> 가솔린 대비 저렴한 리터당 LPG 연료 요금제를 기반으로 하며, 차량 초기 구매 금액이 전기차 대비 대폭 저렴해 인수 시 금융 리스크가 현저히 감소합니다.</li>
+        <li><strong>동력 성능의 혁신적 보정:</strong> 포터2 스마트 트림 기준 과거 디젤 모델의 힘을 상회하는 2.5 LPDi 터보 엔진을 얹어, 언덕길 중량물 등반 시에도 힘이 부족하지 않고 부드러운 가속력을 이끌어냅니다.</li>
+        <li><strong>단점 요인:</strong> 연비가 다소 불리하여 주유소(LPG 충전소) 방문 횟수가 잦고, 장기적으로 가스 봄베 계통의 주기적 메인터넌스 비용 부담이 존재합니다.</li>
+      </ul>
+
+      <h3>순수 전기(EV) 일렉트릭 파워트레인의 특장점</h3>
+      <ul>
+        <li><strong>압도적인 정숙성과 저렴한 유류비:</strong> 내연기관이 발생시키는 극심한 엔진 진동과 떨림이 전혀 없어 장시간 운전하는 택배 종사자들의 피로도를 엄청나게 낮춰줍니다. 심야 충전 요금을 활용하면 유지 요금이 내연기관의 30% 수준으로 크게 절감됩니다.</li>
+        <li><strong>지자체 친환경 혜택과 특혜 지원금:</strong> 고속도로 통행료 할인 혜택, 공영주차장 감면 혜택은 물론이고 스타일 스페셜 모델 기준 1,000만 원이 훨씬 넘는 보조금이 매칭되어 초기 혜택 폭이 매우 넓습니다.</li>
+        <li><strong>단점 요인:</strong> 공식 주행거리가 빈 차 상태 기준 211km 안팎으로 극히 짧아 한겨울 히터를 상시 기동하면 배터리 효율이 크게 격하되어 충전 스트레스가 유발된다는 에펨코리아 및 보배드림 실시간 불만 후기가 다소 발견됩니다.</li>
+      </ul>
+    </section>
+
+    <!-- 5. 구매 경로에 따른 전략 분석 -->
+    <section id="purchasing-way">
+      <h2>장기렌트, 오토리스, 중고 탑차 비교로 예산 아끼기</h2>
+      <p>
+        신차를 전액 일시불이나 할부로 본인 명의로 신규 등록하여 인도받는 일은 사업 초기 비용 부담이 상당합니다. 자산으로 등재되어 건강보험료나 종합소득세 세금 구간에 영향을 미칠 우려가 있기에, 최근에는 법인 및 개인사업자 차주들이 다양한 전문 금융 상품을 연계해 스마트하게 절세 혜택과 프로모션을 챙기는 추세입니다.
+      </p>
+      <p>
+        특히 <strong>1톤 탑차 장기렌트</strong>의 경우, 렌트 차량 고유의 하, 허, 호 번호판을 달고 달리지만, 주행거리가 무제한에 가깝거나 사고율이 높아 다이렉트 자동차 보험 요금제가 살인적으로 비싸게 나오는 청년 자영업자들에게 더할 나위 없이 훌륭한 탈출구가 되어 줍니다. 사고가 발생해도 정해진 소액의 면책금만 지급하면 보험 가입 갱신 거절이나 징벌적 할증에 노출되지 않기 때문에 현업 운송 사업 시 심리적 평온함을 획득할 수 있습니다.
+      </p>
+      <p>
+        이와 비교되는 <strong>1톤 탑차 오토리스</strong>는 일반 자가용 전용 번호판을 부착하면서 운행할 수 있으므로 겉으로 렌트 이력이 전혀 티가 나지 않고 품위유지가 가능합니다. 더불어 사용자의 기존 무사고 운전 이력이 중단 없이 그대로 승계 및 인정되어 개인의 우량한 자동차 보험 혜택 요율을 고스란히 지켜낼 수 있어, 베테랑 화물 운전사들 사이에서 제일 선호도 순위가 높은 매력적 방법론으로 각광받고 있습니다.
+      </p>
+      <p>
+        사업 초창기 무리한 자금 경색을 방어하기 위해 상태가 양호한 <strong>1톤 중고탑차</strong>를 물색하는 분들도 꾸준히 존재합니다. 하지만 중고차는 탑 내부 냉동기가 부실하게 장착되었거나, 탑 겉면의 뒤틀림 누수 현상으로 인해 인수 직후 엄청난 정비 청구서가 발송되는 경우가 잦기 때문에 디시 및 보배드림의 특장 자문을 거치거나 제휴 점검 동행 컨설턴트를 동반해 매물을 감정하는 안전 수칙을 준수해야 합니다.
+      </p>
+    </section>
+
+    <!-- 6. 온라인 성지와 지원금 추가 혜택 극대화 -->
+    <section id="online-tip">
+      <h2>인터넷 다이렉트 온라인 신청과 영업소 혜택 받기</h2>
+      <p>
+        더 이상 대리점에 직접 방문하여 정가만 지불하고 차를 기다리는 고전적인 방식에만 머무를 필요는 없습니다. 최근에는 구글, 네이버 등 대형 검색 엔진과 각종 모바일 어플의 활성화에 따라, 딜러 서비스 수준을 넘어서는 비공식 특판 혜택 좌표와 소상공인 응원 지원금 혜택을 매칭해 주는 온라인 성지 플랫폼들이 선풍적인 호응을 얻고 있습니다.
+      </p>
+      <p>
+        이러한 다이렉트 전용 사이트를 통해 신규 가입 상담 신청서를 발송하면 각 영업소 캐시백 지급 비율, 썬팅 및 블랙박스 무상 장착 사은품 제공 내역, 금융 제휴 신용카드 사용 시 지급되는 대규모 현금지원이나 상품권 바우처를 투명하게 제안받을 수 있습니다. 토스, 카카오톡 등 핀테크 금융 앱 내부의 내 차 사기 탭 또는 차량 제휴 이벤트를 모니터링하여 기간 한정 주유권 제공 프로모션을 공략하는 것도 초기 인도가격을 획기적으로 낮추는 현명한 해법입니다.
+      </p>
+    </section>
+
+    <!-- 7. 인터랙티브 가상 시뮬레이터 -->
+    <section id="calculator">
+      <h2>2026 1톤 탑차 가격 실시간 계산기</h2>
+      <p>
+        아래 옵션들을 사업주의 비즈니스 실태에 맞추어 임의로 지정해 주십시오. 즉각적으로 2026년형 공식 공장 출고가와 예상되는 실구매 납부 세액까지 일괄적으로 추산하여 보여줍니다.
+      </p>
+
+      <div class="calc-form">
+        <div class="form-group">
+          <label for="calc-brand">차량 브랜드 및 제조사 선택</label>
+          <select id="calc-brand" onchange="runPricingSimulation()">
+            <option value="hyundai">현대자동차 (Porter II)</option>
+            <option value="kia">기아자동차 (Bongo III)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="calc-engine">엔진 파워트레인 종류 선택</label>
+          <select id="calc-engine" onchange="runPricingSimulation()">
+            <option value="lpg">스마트스트림 LPG 2.5 터보</option>
+            <option value="electric">친환경 전기모터 (Electric / EV)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="calc-body">특장 형태 및 종류 선택</label>
+          <select id="calc-body" onchange="runPricingSimulation()">
+            <option value="box-low">일반 저상 내장탑차 (+ 230만 원)</option>
+            <option value="box-high">일반 하이 내장탑차 (+ 290만 원)</option>
+            <option value="ice-high">온도조절 하이 냉동탑차 (+ 650만 원)</option>
+            <option value="wing">양측 도어 개폐 1톤 윙바디 (+ 580만 원)</option>
+            <option value="powergate">유압식 1톤 탑차 파워게이트 (+ 450만 원)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="calc-trim">차량 세부 등급 및 트림 선택</label>
+          <select id="calc-trim" onchange="runPricingSimulation()">
+            <option value="basic">기본형 트림 (L라이트 / 스마트 / 스타일)</option>
+            <option value="mid">실속형 트림 (L등급 / 모던 / 스마트 스페셜)</option>
+            <option value="premium">고급형 트림 (GLS등급 / 프리미엄 / 프리미엄 스페셜)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="calc-region">보조금 수령 희망 지자체 (전기차 전용)</label>
+          <select id="calc-region" onchange="runPricingSimulation()">
+            <option value="seoul">서울특별시 (서울)</option>
+            <option value="gg">경기도 일대 (인천 포함)</option>
+            <option value="busan">부산광역시</option>
+            <option value="jeju">제주특별자치도</option>
+            <option value="other">기타 비수도권 지방 광역시</option>
+          </select>
+        </div>
+
+        <button type="button" class="calc-btn" onclick="runPricingSimulation()">실시간 가상 견적 계산하기</button>
+
+        <div class="calc-results">
+          <h3>가산 견적 시뮬레이션 결과 리포트</h3>
+          <div>
+            <span>특장 적용 차량 공장 가격</span>
+            <span id="res-base">23,820,000 원</span>
+          </div>
+          <div>
+            <span>정부 및 지자체 전기 보조금</span>
+            <span id="res-subsidy">0 원 (LPG 대상 아님)</span>
+          </div>
+          <div>
+            <span>실구매 인수가액 (보조금 공제)</span>
+            <span id="res-net">23,820,000 원</span>
+          </div>
+          <div>
+            <span>취등록세 세액 예측치 (화물차 5%율)</span>
+            <span id="res-tax">1,191,000 원</span>
+          </div>
+          <div>
+            <span>총 예상 소요 예산합계</span>
+            <span id="res-total">25,011,000 원</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. 자주 묻는 질문 FAQ 섹션 -->
+    <section id="faq">
+      <h2>1톤 탑차 가격 관련 자주 묻는 질문 (FAQ)</h2>
+      <p>실제 화물 운송 종사자분들과 예비 차주분들이 고객센터 및 디시, 에펨코리아 등에서 가장 자주 던지는 대표적 질문을 엄선해 정리했습니다.</p>
+
+      <div class="faq-wrapper">
+        <div class="faq-block">
+          <div class="faq-question">Q1. 1톤 윙바디 특장차와 일반 내장탑차의 제작 비용 차이점은 무엇인가요?</div>
+          <div class="faq-answer">
+            1톤 윙바디는 유압 실린더 혹은 수동식 개폐 와이어 장치가 양옆에 기본 적용되어야 하므로, 일반 박스형인 내장탑차 대비 평균 250만 원에서 350만 원 수준의 제작 비용 격차가 상향 발생합니다. 하지만 지게차 하차가 빈번한 현장이라면 해당 비용 대비 노동 강도 경감률이 높아 무조건 추천되는 투자 가치를 보입니다.
+          </div>
+        </div>
+
+        <div class="faq-block">
+          <div class="faq-question">Q2. 전기(EV) 포터 일렉트릭 스페셜 모델의 한겨울철 연비 저하 수준은 어느 정도인가요?</div>
+          <div class="faq-answer">
+            전기 화물 트럭은 배터리의 고유 화학 반응 제약으로 인해 영하 10도 이하의 한겨울 한파 속에서는 난방 히터와 열선 기동 시 주행 가능 거리가 상온 대비 약 30% 내외로 크게 감쇠합니다. 따라서 중장거리 고속도로 정기 탁송 노선을 뛰어야 하는 배송 전문 차주라면 전기보다는 LPG 터보 트림을 구매하는 방향이 스트레스를 저감하는 확실한 방법입니다.
+          </div>
+        </div>
+
+        <div class="faq-block">
+          <div class="faq-question">Q3. 신차 계약 시 영업 사원 현금지원이나 페이백 혜택 비율은 대략 평균 얼마인가요?</div>
+          <div class="faq-answer">
+            대리점의 지점 성격이나 개인 딜러의 마진 상황에 따라 유동적이지만, 1톤 탑차와 같은 생계형 차종은 마진 구조가 승용차 대비 매우 얇게 설계되어 있습니다. 평균적으로 차량 가액의 1% 내외 수준이거나 썬팅, 블랙박스 최고급형 패키지 서비스로 제공받는 것이 정론입니다. 다만 전용 리스나 렌트 협력 금융 어플리케이션을 거쳐 다이렉트 온라인으로 가입을 올리는 경우 혜택 폭이 한층 넓어질 여지가 다분합니다.
+          </div>
+        </div>
+
+        <div class="faq-block">
+          <div class="faq-question">Q4. 1.2톤 탑차의 자동차세 및 보험 요금 요금제 설계는 1톤과 차이가 있나요?</div>
+          <div class="faq-answer">
+            1.2톤 사양은 대형 화물 및 특수 목적 중량 화물에 속하므로 공차 중량과 엔진 축간거리가 늘어나고, 일부 기종은 종합 보험 요율 가입 시 1톤 대비 기본 납입 금액이 소폭 높게 배정됩니다. 또한 소형 화물 세제 혜택 면에서는 동일 연간 고정 세액 범주를 적용받지만 타이어 소모 및 패드 정비 주기가 다소 짧아 유지비가 증가할 개연성이 큽니다.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. 공인된 신뢰성 참고 외부 자료 안내 -->
+    <section id="reference-links">
+      <h2>공식 검증 및 참조 정보 사이트 좌표 안내</h2>
+      <p>보다 체계적인 국내 법규 가이드라인, 소상공인 화물 업종 유형별 통계 보고서 및 자동차 명세 내역을 정식으로 파악하고 싶으시다면 아래의 공인 참고 웹페이지를 방문하십시오.</p>
+      <ul>
+        <li>
+          <a href="https://directscheckk.koreahankang.com" target="_blank" rel="noopener">
+            국내 화물 유통 산업 동향 및 1톤 소형 특장 가격 가이드 (Reliabledone 비즈니스 리서치 분석실)
+          </a>
+        </li>
+        <li>
+          <a href="https://namu.wiki/w/%ED%98%84%EB%8C%80%20%ED%8F%AC%ED%84%B0" target="_blank" rel="noopener">
+            현대자동차 포터 시리즈 기술 제원 역사 정보 - 나무위키 백과사전
+          </a>
+        </li>
+        <li>
+          <a href="https://www.kia.com/kr/vehicles/bongo-iii-truck/specification" target="_blank" rel="noopener">
+            기아 봉고3 공식 차종 가격표 다운로드 및 내 차 만들기 시뮬레이터 (Kia 공식 채널)
+          </a>
+        </li>
+      </ul>
+      <p>본 안내서에 포함된 수치와 지원 조건은 정부의 2026년 대기 보조금 신규 예산 편성 한도 소진 유무 및 제조사의 정기 생산 판매조건 업데이트에 의해 일시 변동이 발생할 수 있으므로, 최종 계약 확정 전에 제조사 고객센터 및 공인 카매니저 자문을 구하십시오.</p>
+    </section>
+
+    <!-- 키워드 모음 (SEO 서브 검색엔진 최적화용 태그 컨테이너) -->
+    <div class="tag-container">
+      <span class="tag-item">#1톤탑차가격</span>
+      <span class="tag-item">#포터2내장탑차</span>
+      <span class="tag-item">#봉고3냉동탑차</span>
+      <span class="tag-item">#1톤윙바디</span>
+      <span class="tag-item">#포터2일렉트릭탑차</span>
+      <span class="tag-item">#봉고3EV냉동탑차</span>
+      <span class="tag-item">#1톤저상탑차</span>
+      <span class="tag-item">#포터2하이냉동탑차</span>
+      <span class="tag-item">#1톤탑차LPG터보</span>
+      <span class="tag-item">#1.2톤탑차</span>
+      <span class="tag-item">#포터일렉트릭스페셜</span>
+      <span class="tag-item">#봉고3L라이트</span>
+      <span class="tag-item">#1톤탑차장기렌트</span>
+      <span class="tag-item">#1톤탑차오토리스</span>
+      <span class="tag-item">#1톤중고탑차</span>
+    </div>
+
+  </main>
+
+  
+  <script>
+    // 1. FAQ 토글 구현부
+    document.querySelectorAll('.faq-question').forEach(item => {
+      item.addEventListener('click', () => {
+        const parent = item.parentElement;
+        parent.classList.toggle('open');
+      });
+    });
+
+    // 2. 가상 시뮬레이터 작동 스크립트 (2026년형 현실 가중치 적용)
+    function runPricingSimulation() {
+      const brand = document.getElementById('calc-brand').value;
+      const engine = document.getElementById('calc-engine').value;
+      const bodyType = document.getElementById('calc-body').value;
+      const trim = document.getElementById('calc-trim').value;
+      const region = document.getElementById('calc-region').value;
+
+      // 트림별 기본 공장가 설정 (LPG 사양 베이스)
+      let basePrice = 21520000; // 현대 기본
+
+      if (brand === 'hyundai') {
+        if (engine === 'lpg') {
+          if (trim === 'basic') basePrice = 21520000;
+          else if (trim === 'mid') basePrice = 22570000;
+          else basePrice = 23800000;
+        } else { // 전기차 사양 기본
+          if (trim === 'basic') basePrice = 43500000;
+          else if (trim === 'mid') basePrice = 44850000;
+          else basePrice = 46450000;
+        }
+      } else { // 기아 자동차 기준
+        if (engine === 'lpg') {
+          if (trim === 'basic') basePrice = 20550000;
+          else if (trim === 'mid') basePrice = 21250000;
+          else basePrice = 23200000;
+        } else { // 기아 EV 기준
+          if (trim === 'basic') basePrice = 43250000;
+          else if (trim === 'mid') basePrice = 44500000;
+          else basePrice = 46300000;
+        }
+      }
+
+      // 특장 종류에 따른 가격 프리미엄 가산 계산
+      let bodyAddOn = 0;
+      if (bodyType === 'box-low') bodyAddOn = 2300000;
+      else if (bodyType === 'box-high') bodyAddOn = 2900000;
+      else if (bodyType === 'ice-high') bodyAddOn = 6500000;
+      else if (bodyType === 'wing') bodyAddOn = 5800000;
+      else if (bodyType === 'powergate') bodyAddOn = 4500000;
+
+      const totalFactoryPrice = basePrice + bodyAddOn;
+
+      // 보조금 계산 로직 (전기 트럭에만 연계 지원)
+      let subsidyAmount = 0;
+      if (engine === 'electric') {
+        let nationalSubsidy = 10000000; // 표준 일렉트릭
+        if (bodyType === 'ice-high') {
+          nationalSubsidy = 11720000; // 전기 냉동 특수 보조금 기준 적용
+        } else if (bodyType.includes('box') || bodyType === 'wing') {
+          nationalSubsidy = 7800000; // 일반 특장 내장탑 지원금 고정
+        }
+
+        // 지자체별 상이한 추가 보조금 매칭
+        let localSubsidy = 2900000;
+        if (region === 'seoul') {
+          localSubsidy = (bodyType === 'ice-high') ? 4010000 : 2840000;
+        } else if (region === 'jeju') {
+          localSubsidy = (bodyType === 'ice-high') ? 5570000 : 3710000;
+        } else if (region === 'gg') {
+          localSubsidy = 3500000;
+        } else if (region === 'busan') {
+          localSubsidy = 3300000;
+        }
+
+        subsidyAmount = nationalSubsidy + localSubsidy;
+      }
+
+      // 최종 구매가 및 화물 세율(5% 취등록세 요금) 산출
+      const finalAcquisitionPrice = Math.max(0, totalFactoryPrice - subsidyAmount);
+      const estimatedTax = Math.round(finalAcquisitionPrice * 0.05);
+      const totalBudgetRequired = finalAcquisitionPrice + estimatedTax;
+
+      // 실시간 화면 업데이트 연계
+      document.getElementById('res-base').innerText = totalFactoryPrice.toLocaleString() + ' 원';
+      document.getElementById('res-subsidy').innerText = (subsidyAmount > 0) ? '-' + subsidyAmount.toLocaleString() + ' 원' : '0 원 (LPG 대상 아님)';
+      document.getElementById('res-net').innerText = finalAcquisitionPrice.toLocaleString() + ' 원';
+      document.getElementById('res-tax').innerText = estimatedTax.toLocaleString() + ' 원';
+      document.getElementById('res-total').innerText = totalBudgetRequired.toLocaleString() + ' 원';
+    }
+
+    // 초기 구동화 로드 연동
+    window.onload = function() {
+      runPricingSimulation();
+    };
+  </script>
+  
